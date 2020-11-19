@@ -9,7 +9,7 @@ const hook = new discord.WebhookClient(discordInfo.hookId, discordInfo.hookToken
 
 
 var cycle = 0; //dont change this
-var refreshDelay = 10000; //default is 10 sec (10000), feel free to change
+var refreshDelay = 1000; //default is 10 sec (10000), feel free to change
 var currentStock = [];
 var newStock = [];
 
